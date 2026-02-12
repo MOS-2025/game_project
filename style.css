@@ -1,0 +1,42 @@
+.game-card {
+  max-width: 420px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+#flag {
+  height: 170px;
+  object-fit: contain;
+}
+
+button {
+  transition: transform 0.1s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+/* ------------------------
+   LEVEL BACKGROUNDS
+-------------------------*/
+
+.level-1 {
+  background: linear-gradient(135deg, #dbeafe, #93c5fd);
+}
+
+.level-2 {
+  background: linear-gradient(135deg, #dcfce7, #86efac);
+}
+
+.level-3 {
+  background: linear-gradient(135deg, #fef9c3, #fde047);
+}
+
+.level-4 {
+  background: linear-gradient(135deg, #fbcfe8, #f472b6);
+}
+
+.level-5 {
+  background: linear-gradient(135deg, #e9d5ff, #a78bfa);
+}
