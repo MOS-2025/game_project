@@ -1,3 +1,5 @@
+/* jshint esversion: 6 */
+
 // =================================================
 // Detect current level from HTML
 // <body data-level="1">
@@ -175,7 +177,7 @@ const levelCountries = shuffle(levelGroups[level - 1]);
 
 
 // =================================================
-// Game variables
+// Game constiables
 // =================================================
 let score = 0;
 let index = 0;
